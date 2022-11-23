@@ -1,0 +1,13 @@
+.post {
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  padding: 15px;
+}
+
+.post h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: left;
+}
