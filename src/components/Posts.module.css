@@ -1,0 +1,12 @@
+.posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+}
+.posts h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}

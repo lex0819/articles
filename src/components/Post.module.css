@@ -1,13 +1,28 @@
 .post {
+  min-width: 300px;
   max-width: 600px;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-  padding: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .post h2 {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
+  color: rgb(0, 0, 176);
   margin-bottom: 20px;
   text-align: left;
+}
+.post p {
+  font-size: 1.2rem;
+  text-align: left;
+  color: rgb(59, 59, 59);
+}
+.post address {
+  font-size: 1rem;
+  text-align: right;
+  color: rgb(2, 141, 255);
 }
