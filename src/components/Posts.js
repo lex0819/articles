@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { ImSpinner3 } from 'react-icons/im';
 import Post from './Post';
 import styles from './Posts.module.css';
 
@@ -23,7 +24,7 @@ function Posts() {
   } */
   return (
     <div className={styles.posts}>
-      {isLoading && <h2>Loading...</h2>}
+      {isLoading && <ImSpinner3 className={styles.spinner} />}
       {error && <h2>Server doesn't response. Error: {error}</h2>}
       {posts && posts.map((post) => <Post key={post.id} {...post} />)}
     </div>
